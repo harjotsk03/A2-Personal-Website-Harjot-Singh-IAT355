@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizations | Harjot Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">HS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="visualizations.html" class="viz-link active">Visualizations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="viz-main">
+        <div class="container">
+            <h1 class="viz-page-title">Data Visualizations</h1>
+            <p class="viz-page-subtitle">Interactive SVG visualizations created with JavaScript</p>
+
+            <section class="viz-section">
+                <h2 class="viz-title">Technical Skills Distribution</h2>
+                <p class="viz-description">A radar chart showing proficiency levels across different technical domains</p>
+                <div class="viz-container">
+                    <svg id="skillsChart" class="visualization"></svg>
+                </div>
+            </section>
+
+            <section class="viz-section">
+                <h2 class="viz-title">Ice Hockey Rink</h2>
+                <p class="viz-description">Creative SVG art inspired by my passion for ice hockey</p>
+                <div class="viz-container">
+                    <svg id="hockeyRink" class="visualization"></svg>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Harjot Singh. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="vis.js"></script>
+</body>
+</html>
